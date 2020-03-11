@@ -745,6 +745,7 @@ KBUILD_CFLAGS   += -O3 -finline-hint-functions
 else
 KBUILD_CFLAGS   += -O2
 endif
+KBUILD_CFLAGS   += -O3
 endif
 
 ifdef CONFIG_CC_WERROR
